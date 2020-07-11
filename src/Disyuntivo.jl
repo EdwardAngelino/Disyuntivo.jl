@@ -15,6 +15,7 @@ end
 export ol, ob
 export escriberesultados
 export leedatostxt
+export optimizar
 include("frames.jl")
 include("leearchivo.jl")
 include("modelo.jl")
