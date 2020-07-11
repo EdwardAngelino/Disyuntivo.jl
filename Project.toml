@@ -3,6 +3,14 @@ uuid = "77a9f60c-feb4-4412-b3f9-b8ce3671f2ca"
 authors = ["Edward Angelino"]
 version = "0.1.0"
 
+[deps]
+CPLEX = "a076750e-1247-5638-91d2-ce28b192dca0"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
 julia = "1"
 
