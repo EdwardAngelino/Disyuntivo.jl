@@ -4,13 +4,17 @@ Utilizacion (en Julia 1.0.5):
 
 Instalación:
 
-(v1.0) pkg> add https://github.com/EdwardAngelino/Disyuntivo.jl
-julia> using Disyuntivo
+    (v1.0) pkg> add https://github.com/EdwardAngelino/Disyuntivo.jl
+
+    julia> using Disyuntivo
 
 Uso:
-julia> leedatostxt("datosdisyuntivo.txt")     # archivo de datos ver archivos de ejemplo
-julia> Disyuntivo.optimizar()                 # optimización Requiere instalacion de CPLEX y CPLEX e julia.
-julia> Disyuntivo.escriberesultados()         # escribe archivos csv: lineas_res.csv, barras_res.csv
+
+     julia> leedatostxt("datosdisyuntivo.txt")     # archivo de datos ver archivos de ejemplo
+
+     julia> Disyuntivo.optimizar()                 # optimización Requiere instalacion de CPLEX y CPLEX e julia.
+
+     julia> Disyuntivo.escriberesultados()         # escribe archivos csv: lineas_res.csv, barras_res.csv
 
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://EdwardAngelino.github.io/Disyuntivo.jl/stable)
